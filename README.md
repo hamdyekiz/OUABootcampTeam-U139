@@ -3,9 +3,6 @@
 
 ### **????**
 
-
-# Oyun İle İlgili Bilgiler
-
 ## Takım Üyeleri
 
 - [Ayşe Nur Erbilir: Team Member/Developer](https://github.com/AysenurErbilir)
@@ -13,6 +10,9 @@
 - [Makbule Tomay: Team Member/Developer](https://github.com/tomaymakbule)
 - [Sefercan Durmuş: Team Member/Developer]()
 - [Yağmur Çağla Öztürk: Team Member/Developer](https://github.com/ymrcgl)
+
+# Oyun İle İlgili Bilgiler
+
 
 ## Oyun İsmi
 # **??????????**
