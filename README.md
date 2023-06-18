@@ -44,6 +44,9 @@ Keşif tabanlı oyunlardan keyif alan geniş bir oyuncu kitlesine hitap edebilir
 # Sprint 1
 
 - **Sprint Notları**: 
+- Takım olarak proje yönetiminde Trello kullanımı kararlaştırılmıştır. Görevleri To Do, In Progress ve Done şeklinde 3 ana başlıkta ayırdık. 1. sprintte yapılacak görevleri To Do başlığına yazdık.
+- Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
+- 
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 
 
@@ -55,7 +58,7 @@ Keşif tabanlı oyunlardan keyif alan geniş bir oyuncu kitlesine hitap edebilir
 - **Daily Scrum**: 
 [**Sprint 1 Daily Scrum Chats**]()
 
-## Product Backlog URL
+## [Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
 
 
 
