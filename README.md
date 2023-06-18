@@ -39,43 +39,44 @@ Bu iki kısım, karakterin Hexagonia'da hayatta kalmak ve uzay gemisini tamir et
 
 ## Hedef Kitle
 
-Keşif tabanlı oyunlardan keyif alan geniş bir oyuncu kitlesine hitap edebilir. Bulmacalar stratejik derinlik katarken, keşif ve farklı dünyalar ise oyuncuya yeni deneyimler sunar.
+Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine hitap eder. 
 
-# Sprint 1
+## Sprint 1
 
-- **Sprint Notları**: 
+**Sprint Notları**: 
 - Takım olarak proje yönetiminde Trello kullanımı kararlaştırılmıştır. Görevleri To Do, In Progress ve Done şeklinde 3 ana başlıkta ayırdık. 1. sprintte yapılacak görevleri To Do başlığına yazdık.
 - Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
-- 
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+**Sprint içinde tamamlanması tahmin edilen puan**: 
 
 - **Puan tamamlama mantığı**: 
 
-- **Backlog düzeni ve Story seçimleri**: 
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
 
 - **Daily Scrum**: 
 [**Sprint 1 Daily Scrum Chats**]()
 
-## [Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
+- [Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
 
 
 
 
 - **Sprint board update**: Sprint board screenshotları: 
+- 
 
-
+- **Sprint Review katılımcıları:** 
+- Hamdi Ekiz, Sefercan Durmuş, Yağmur Çağla Öztürk
   
 - **Sprint Review**: 
-Alınan kararlar: 
+- Tur bazlı hareket mekaniği kodlandı.  gelişme aşamasında. Üç boyutlu dünyalar ve oyun giriş ekranı gelişme aşamasında. Karakterin hareket mekaniği kodlandı. Sahneler arası geçiş mekaniği çözüldü.
+- Alınan kararlar: Oyuna eklenebilecek detaylar konuşuldu. Üç boyutlu dünyaların daha küçük olarak tasarlanması karar verildi.
   
-- **Sprint Review katılımcıları:** 
+
   
 - **Sprint Retrospective:**
--
-- 
-- 
+-Ekip içi iletişim sınavlar ve kişisel sebeplerden dolayı kopuktu. Ekip içi iletişimin arttırılması gerektiğine vurgu yapıldı. 
+
 
 
 -**Diğer Notlar**:
