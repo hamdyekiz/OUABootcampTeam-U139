@@ -1,7 +1,7 @@
 # Team-U139
 ## **Takım İsmi**
 
-### **????**
+### **N/A**
 
 ## Takım Üyeleri
 
@@ -15,18 +15,31 @@
 
 
 ## Oyun İsmi
-# **??????????**
+# **Hexagonia**
 
 ## Oyun Açıklaması
+
+Ana karakterimiz, gezegenleri keşfetmek amacıyla uzayda seyahat eden bir gezgin astronottur. Son uzay macerasında beklenmedik bir olayla karşılaşır ve kendisini hiç görmediği bir galaksinin içinde, hexagon şeklindeki bir dünya olan Hexagonia'da bulur. Hexagonia, farklı biyomlardan ve bölgelerden oluşan, olağanüstü fizik kurallarının geçerli olduğu bir dünyadır.
+
+Karakterimizin amacı, uzay gemisinin eksik olan parçalarını bulup tamir ederek tekrar uzaya dönmektir. Bunun için farklı biyomlara (hexagonlara) giriş yaparak çeşitli bulmacalar çözmesi gerekmektedir. Bu bulmacaları çözerken hem eksik parçaları bulacak hem de Hexagonia'da hayatta kalmak için gerekli olan yetenekleri geliştirecektir.
   
   
 
 ## Oyun Özellikleri
 
+Oyunun iki kısmı bulunmaktadır.
+
+Hexagonia: Bu kısım, karakterimizin gezegen Hexagonia'da hareket ettiği ve farklı biyomlardan oluşan hexagonlara geçiş yaptığı bir oyun mekaniğine sahiptir. Her turda karakter, bir hexagondan diğerine geçebilir. Ancak her geçişte oksijen miktarı azalır, bu nedenle karakterin oksijen seviyesini gözlemlemesi ve stratejik kararlar vermesi gerekmektedir. Hexagonlarda farklı zorluklarla karşılaşabilir, bulmacaları çözebilir ve geliştirmeler elde edebilir.
+
+Üç Boyutlu Dünyalar: Bu kısım, karakterin seçtiği bir hexagona göre kendisini eşsiz bir üç boyutlu dünyada bulduğu bir oyun alanı sunar. Bu dünyalar çeşitli biyomlardan oluşabilir, örneğin su biyomları, mantar ormanları veya terk edilmiş bir bina gibi. Karakter, bu dünyalarda ufak bulmacaları çözerken hem birinci kısımda kullanabileceği geliştirmeleri elde eder hem de ana hedef olan uzay gemisinin ana parçalarını bulur. Bu dünyalarda keşif yapmak, gizli geçitleri bulmak ve bulmacaları çözmek için dikkatli bir şekilde etrafı gözlemlemesi ve ipuçlarını birleştirmesi gerekmektedir.
+
+Bu iki kısım, karakterin Hexagonia'da hayatta kalmak ve uzay gemisini tamir etmek için birbirini tamamlayan bir deneyim sunar. Oyuncu, bulmacaları çözerken stratejik düşünmeli, yeteneklerini geliştirmeli ve gezegenin sırlarını keşfetmek için maceralı bir yolculuğa çıkmalıdır.
 
 
 
 ## Hedef Kitle
+
+Keşif tabanlı oyunlardan keyif alan geniş bir oyuncu kitlesine hitap edebilir. Bulmacalar stratejik derinlik katarken, keşif ve farklı dünyalar ise oyuncuya yeni deneyimler sunar.
 
 # Sprint 1
 
