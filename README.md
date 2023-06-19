@@ -80,7 +80,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
   
  **Sprint Review**: 
 - Tur bazlı hareket mekaniği kodlandı. Üç boyutlu dünyalar ve oyun giriş ekranı gelişme aşamasında. Karakterin hareket mekaniği kodlandı. Sahneler arası geçiş mekaniği sorunu çözüldü.
-- 105 puanlık backlog yapıldı.
+- 105 puanlık backlog tamamlandı.
 
 **Alınan kararlar**: 
 - Oyuna eklenebilecek detaylar konuşuldu. Üç boyutlu dünyaların daha küçük olarak tasarlanmasına karar verildi.
