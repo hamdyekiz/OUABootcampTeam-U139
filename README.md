@@ -50,7 +50,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 
 **Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 355 puanlık backlog bulunmaktadır. Bu sprintte sınavlarımız falan olduğundan kaynaklı en azından 100 puanlık backlog yapılması gerektiği karar verildi.
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 355 puanlık backlog bulunmaktadır. Bu sprintte sınavlarımız falan olduğundan kaynaklı en azından 100 puanlık backlog yapılması gerektiği karar verildi.
 
  **Daily Scrum**: 
 [**Sprint 1 Daily Scrum Chats**](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/daily_scrum.pdf)
