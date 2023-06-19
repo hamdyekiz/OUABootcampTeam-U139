@@ -76,7 +76,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 
 
  **Sprint Review katılımcıları:** 
-- Hamdi Ekiz, Sefercan Durmuş, Yağmur Çağla Öztürk
+- Hamdi Ekiz, Makbule Tomay, Sefercan Durmuş, Yağmur Çağla Öztürk
   
  **Sprint Review**: 
 - Tur bazlı hareket mekaniği kodlandı. Üç boyutlu dünyalar ve oyun giriş ekranı gelişme aşamasında. Karakterin hareket mekaniği kodlandı. Sahneler arası geçiş mekaniği sorunu çözüldü.
