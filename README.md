@@ -14,8 +14,9 @@
 # Oyun İle İlgili Bilgiler
 
 
-## Oyun İsmi
-# **Hexagonia**
+## Oyun İsmi  
+
+**Hexagonia**
 
 ## Oyun Açıklaması
 
@@ -47,40 +48,51 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 - Takım olarak proje yönetiminde Trello kullanımı kararlaştırılmıştır. Görevleri To Do, In Progress ve Done şeklinde 3 ana başlıkta ayırdık. 1. sprintte yapılacak görevleri To Do başlığına yazdık.
 - Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
 
-**Sprint içinde tamamlanması tahmin edilen puan**: 
+**Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
 
-- **Puan tamamlama mantığı**: 
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 355 puanlık backlog bulunmaktadır. Bu sprintte sınavlarımız falan olduğunndan kaynaklı en azından 100 puanlık backlog yapılması gerektiği karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+ **Daily Scrum**: 
+[**Sprint 1 Daily Scrum Chats**](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/daily_scrum.pdf)
 
-
-- **Daily Scrum**: 
-[**Sprint 1 Daily Scrum Chats**]()
-
-- [Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
+ **Product Backlog**: 
+[Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
 
 
 
 
-- **Sprint board update**: Sprint board screenshotları: 
-- 
+**Sprint board update**: Sprint board screenshotları: 
 
-- **Sprint Review katılımcıları:** 
+![Backlog 1](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/backlognew.PNG)
+
+**Oyun Durumu**: Ekran görüntüleri:
+
+![Screenshot 1](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/mainworld.PNG)
+![Screenshot 2](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/BC-1.png)
+![Screenshot 3](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/BC-2.png)
+![Screenshot 4](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/BC-4.png)
+
+
+
+
+ **Sprint Review katılımcıları:** 
 - Hamdi Ekiz, Sefercan Durmuş, Yağmur Çağla Öztürk
   
-- **Sprint Review**: 
-- Tur bazlı hareket mekaniği kodlandı.  gelişme aşamasında. Üç boyutlu dünyalar ve oyun giriş ekranı gelişme aşamasında. Karakterin hareket mekaniği kodlandı. Sahneler arası geçiş mekaniği çözüldü.
-- Alınan kararlar: Oyuna eklenebilecek detaylar konuşuldu. Üç boyutlu dünyaların daha küçük olarak tasarlanması karar verildi.
-  
+ **Sprint Review**: 
+- Tur bazlı hareket mekaniği kodlandı. Üç boyutlu dünyalar ve oyun giriş ekranı gelişme aşamasında. Karakterin hareket mekaniği kodlandı. Sahneler arası geçiş mekaniği sorunu çözüldü.
+- 105 puanlık backlog yapıldı.
+
+**Alınan kararlar**: 
+- Oyuna eklenebilecek detaylar konuşuldu. Üç boyutlu dünyaların daha küçük olarak tasarlanmasına karar verildi.
 
   
-- **Sprint Retrospective:**
--Ekip içi iletişim sınavlar ve kişisel sebeplerden dolayı kopuktu. Ekip içi iletişimin arttırılması gerektiğine vurgu yapıldı. 
+ **Sprint Retrospective:**
+- Ekip içi iletişim sınavlar ve kişisel sebeplerden dolayı kopuktu. Ekip içi iletişimin arttırılması gerektiğine vurgu yapıldı. 
 
 
 
--**Diğer Notlar**:
-- N/A
+**Diğer Notlar**:
+- Oyunun hareket mekaniği ve dünya tasarımıyla ilgili 1. sprint dosyasında birkaç tane video bulunmaktadır.
   
   
   
