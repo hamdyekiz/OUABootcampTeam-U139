@@ -18,6 +18,7 @@ public class PlayerInput : MonoBehaviour
         {
             mousePos = Input.mousePosition;
             PointerClick?.Invoke(mousePos);
+
         }
     }
 }

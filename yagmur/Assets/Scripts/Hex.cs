@@ -9,6 +9,8 @@ public class Hex : MonoBehaviour
 
     public Vector3Int HexCoords => hexCoordinates.GetHexCoords();
 
+    public Vector3Int HexPosition { get; internal set; }
+
     public int GetCost()
     {
         return hexType switch

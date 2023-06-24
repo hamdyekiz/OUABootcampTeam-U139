@@ -1,12 +1,16 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovementSystem : MonoBehaviour
 {
     private BFSResult movementRange = new BFSResult();
     private List<Vector3Int> currentPath = new List<Vector3Int>();
     private HashSet<Vector3Int> previousPathPositions = new HashSet<Vector3Int>();
+    public Image healthBar;
+    public float healthDecreaseRate = 1f; // Can azalma hızı
+    public float currentHealth = 100f;
 
     public void HideRange(HexGrid hexGrid)
     {
@@ -57,7 +61,30 @@ public class MovementSystem : MonoBehaviour
     public void MoveUnit(Unit selectedUnit, HexGrid hexGrid)
     {
         Debug.Log("Moving unit " + selectedUnit.name);
+
+        if (currentPath.Count > 1)
+        {
+            for (int i = 0; i < currentPath.Count - 1; i++)
+            {
+                Vector3Int currentHex = currentPath[i];
+                Vector3Int nextHex = currentPath[i + 1];
+
+                if (currentHex != nextHex)
+                {
+                    currentHealth -= healthDecreaseRate;
+                }
+            }
+
+            UpdateHealthBar();
+        }
+
         selectedUnit.MoveThroughPath(currentPath.Select(pos => hexGrid.GetTileAt(pos).transform.position).ToList());
+    }
+
+    private void UpdateHealthBar()
+    {
+        float fillAmount = currentHealth / 100f;
+        healthBar.fillAmount = fillAmount;
     }
 
     public bool IsHexInRange(Vector3Int hexPosition)

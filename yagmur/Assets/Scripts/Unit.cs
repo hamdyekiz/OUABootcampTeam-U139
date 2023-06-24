@@ -9,6 +9,8 @@ public class Unit : MonoBehaviour
     [SerializeField] private int movementPoints = 20;
     public int MovementPoints => movementPoints;
 
+    public bool IsMoving { get; internal set; }
+
     [SerializeField] private float movementDuration = 1f;
     [SerializeField] private float rotationDuration = 0.3f;
 
@@ -75,5 +77,15 @@ public class Unit : MonoBehaviour
         {
             MovementFinished?.Invoke(this);
         }
+    }
+
+    internal void MoveTo(Vector3Int targetHexPosition)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal void MoveTo(Vector3 position)
+    {
+        throw new NotImplementedException();
     }
 }
