@@ -1390,7 +1390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13385546, g: 0.57373595, b: 0.6037736, a: 1}
+  m_Color: {r: 0.24363652, g: 0.4669129, b: 0.7075472, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1875,7 +1875,7 @@ MonoBehaviour:
   hexGrid: {fileID: 1183283964}
   movementSystem: {fileID: 299403510}
   healthBar: {fileID: 583342831}
-  healthDecreaseRate: 5
+  healthDecreaseRate: 3
   currentHealth: 100
 --- !u!4 &825058254
 Transform:
