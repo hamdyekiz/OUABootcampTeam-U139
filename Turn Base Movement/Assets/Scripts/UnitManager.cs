@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UnitManager : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class UnitManager : MonoBehaviour
 
     private Unit selectedUnit;
     private Hex previouslySelectedHex;
+    public Image healthBar;
+    public float healthDecreaseRate = 1f; // Can azalma hýzý
+    public float currentHealth = 100f;
 
     public void HandleUnitSelected(GameObject unit)
     {
@@ -76,10 +80,19 @@ public class UnitManager : MonoBehaviour
         else
         {
             movementSystem.MoveUnit(selectedUnit, hexGrid);
+            // Hareket tamamlandýktan sonra can azaltma iþlemi
+            currentHealth -= healthDecreaseRate;
+            UpdateHealthBar();
+
             PlayersTurn = false;
             selectedUnit.MovementFinished += ResetTurn;
             ClearOldSelection();
         }
+    }
+    private void UpdateHealthBar()
+    {
+        float fillAmount = currentHealth / 100f;
+        healthBar.fillAmount = fillAmount;
     }
 
     private bool HandleSelectedHexIsUnitHex(Vector3Int hexPosition)

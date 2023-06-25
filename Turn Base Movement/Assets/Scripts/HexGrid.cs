@@ -52,6 +52,11 @@ public class HexGrid : MonoBehaviour
         worldPosition.y = 0;
         return HexCoordinates.ConvertPositionToOffset(worldPosition);
     }
+
+    internal void UpdateHealthBar(float fillAmount)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 public static class Direction
