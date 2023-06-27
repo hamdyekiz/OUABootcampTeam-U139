@@ -7,13 +7,13 @@ public class UnitManager : MonoBehaviour
 {
     [SerializeField] private HexGrid hexGrid;
     [SerializeField] private MovementSystem movementSystem;
+    [SerializeField] private Image healthBar;
 
     public bool PlayersTurn { get; private set; } = true;
 
     private Unit selectedUnit;
     private Hex previouslySelectedHex;
-    public Image healthBar;
-    public float healthDecreaseRate = 1f; // Can azalma hýzý
+    public float healthDecreaseRate = 5f; // Can azalma hýzý
     public float currentHealth = 100f;
 
     public void HandleUnitSelected(GameObject unit)
@@ -89,10 +89,11 @@ public class UnitManager : MonoBehaviour
             ClearOldSelection();
         }
     }
+
     private void UpdateHealthBar()
     {
-        float fillAmount = currentHealth / 100f;
-        healthBar.fillAmount = fillAmount;
+        float healthBarAmount = currentHealth / 100f;
+        healthBar.fillAmount = healthBarAmount;
     }
 
     private bool HandleSelectedHexIsUnitHex(Vector3Int hexPosition)
