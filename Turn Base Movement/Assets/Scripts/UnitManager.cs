@@ -1,21 +1,28 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UnitManager : MonoBehaviour
 {
     [SerializeField] private HexGrid hexGrid;
     [SerializeField] private MovementSystem movementSystem;
-    [SerializeField] private Image healthBar;
 
     public bool PlayersTurn { get; private set; } = true;
 
     private Unit selectedUnit;
     private Hex previouslySelectedHex;
-    public float healthDecreaseRate = 5f; // Can azalma hýzý
+    public Image healthBar;
+    public float healthDecreaseRate = 1f; // Can azalma hýzý
     public float currentHealth = 100f;
 
+
+    private bool isGameOver = false;
+
+
+    public GameManagerScript gameManager;
     public void HandleUnitSelected(GameObject unit)
     {
         if (!PlayersTurn)
@@ -84,16 +91,28 @@ public class UnitManager : MonoBehaviour
             currentHealth -= healthDecreaseRate;
             UpdateHealthBar();
 
-            PlayersTurn = false;
-            selectedUnit.MovementFinished += ResetTurn;
-            ClearOldSelection();
+            if (currentHealth <= 0 && !isGameOver)
+            {
+                isGameOver = true;
+                gameManager.gameOver();
+
+                //Invoke("RestartGame", 2f);
+
+            }
+            else
+            {
+                PlayersTurn = false;
+                selectedUnit.MovementFinished += ResetTurn;
+                ClearOldSelection();
+            }
         }
     }
-
     private void UpdateHealthBar()
     {
-        float healthBarAmount = currentHealth / 100f;
-        healthBar.fillAmount = healthBarAmount;
+        float fillAmount = currentHealth / 100f;
+        healthBar.fillAmount = fillAmount;
+
+
     }
 
     private bool HandleSelectedHexIsUnitHex(Vector3Int hexPosition)
@@ -122,4 +141,7 @@ public class UnitManager : MonoBehaviour
         selectedUnit.MovementFinished -= ResetTurn;
         PlayersTurn = true;
     }
+
+
+
 }
