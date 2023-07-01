@@ -95,7 +95,58 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 - Oyunun hareket mekaniği ve dünya tasarımıyla ilgili 1. sprint dosyasında birkaç tane video bulunmaktadır.
   
   
+## Sprint 2
+
+**Sprint Notları**: 
+- 
+- Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
+
+**Sprint içinde tamamlanması tahmin edilen puan**: 
+
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 355 puanlık backlog bulunmaktadır. Bu sprintte sınavlarımız falan olduğundan kaynaklı en azından 100 puanlık backlog yapılması gerektiği karar verildi. DÜZENLE
+
+ **Daily Scrum**: 
+[**Sprint 2 Daily Scrum Chats**](LİNK)
+
+ **Product Backlog**: 
+[Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
+
+
+
+
+**Sprint board update**: Sprint board screenshotları: 
+
+![Backlog 1](LİNK)
+
+**Oyun Durumu**: Ekran görüntüleri:
+
+![Screenshot 1](LİNK)
+![Screenshot 2](LİNK)
+![Screenshot 3](LİNK)
+![Screenshot 4](LİNK)
+
+
+
+
+ **Sprint Review katılımcıları:** 
+- 
   
+ **Sprint Review**: 
+- 
+-
+
+**Alınan kararlar**: 
+- 
+
+  
+ **Sprint Retrospective:**
+- Çalışmalar son haftada bayramdan dolayı aksadı. Çalışmaların hızlandırılması gerektiğine vurgu yapıldı. 
+
+
+
+**Diğer Notlar**:
+- Oyunun hareket mekaniği ve dünya tasarımıyla ilgili 2. sprint dosyasında birkaç tane video bulunmaktadır.
+    
   
   
   
