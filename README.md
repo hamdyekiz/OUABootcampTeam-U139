@@ -48,9 +48,9 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 - Takım olarak proje yönetiminde Trello kullanımı kararlaştırılmıştır. Görevleri To Do, In Progress ve Done şeklinde 3 ana başlıkta ayırdık. 1. sprintte yapılacak görevleri To Do başlığına yazdık.
 - Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
 
-**Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
+**Sprint içinde tamamlanması tahmin edilen puan**: 130 puan
 
-**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 355 puanlık backlog bulunmaktadır. Bu sprintte sınavlarımız falan olduğundan kaynaklı en azından 100 puanlık backlog yapılması gerektiği karar verildi.
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 485 puanlık backlog bulunmaktadır. Bu sprintte sınavlarımız falan olduğundan kaynaklı en azından 130 puanlık backlog yapılması gerektiği karar verildi.
 
  **Daily Scrum**: 
 [**Sprint 1 Daily Scrum Chats**](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/daily_scrum.pdf)
@@ -80,7 +80,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
   
  **Sprint Review**: 
 - Tur bazlı hareket mekaniği kodlandı. Üç boyutlu dünyalar ve oyun giriş ekranı gelişme aşamasında. Karakterin hareket mekaniği kodlandı. Sahneler arası geçiş mekaniği sorunu çözüldü.
-- 105 puanlık backlog tamamlandı.
+- 150 puanlık backlog tamamlandı.
 
 **Alınan kararlar**: 
 - Oyuna eklenebilecek detaylar konuşuldu. Üç boyutlu dünyaların daha küçük olarak tasarlanmasına karar verildi.
@@ -98,12 +98,13 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 ## Sprint 2
 
 **Sprint Notları**: 
-- 
+- Takım olarak proje yönetiminde Trello kullanmaya devam ettik. 
 - Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
+- Ayrı ayrı dosyalarda çalışmak yerine tek bir dosya üzerinden çalışmaya başlanıldı.
 
 **Sprint içinde tamamlanması tahmin edilen puan**: 
 
-**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 355 puanlık backlog bulunmaktadır. Bu sprintte sınavlarımız falan olduğundan kaynaklı en azından 100 puanlık backlog yapılması gerektiği karar verildi. DÜZENLE
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 485 puanlık backlog bulunmaktadır. Bu sprintte 1 haftalık Kurban Bayramı tatili olduğundan kaynaklı en azından 150 puanlık backlog yapılması gerektiği karar verildi. 
 
  **Daily Scrum**: 
 [**Sprint 2 Daily Scrum Chats**](LİNK)
@@ -129,14 +130,16 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 
 
  **Sprint Review katılımcıları:** 
-- 
+- Ayşe Nur Erbilir, Hamdi Ekiz, Sefercan Durmuş, Yağmur Çağla Öztürk
   
  **Sprint Review**: 
-- 
--
+- Ayrı ayrı çalışılan dosyalar birleştirildi ve herkes tek bir dosya üzerinden çalışmaya başladı. 
+- Oyun giriş menüsü yapıldı, can azalma mekaniği kodlandı, karakter animasyonları hazırlandı. 3 boyutlu dünyalar gelişme aşamasında.
+- 175 puanlık backlog tamamlandı.
 
 **Alınan kararlar**: 
-- 
+- 3 boyutlu dünyalara eklenebilecek detaylar konuşuldu. 
+
 
   
  **Sprint Retrospective:**
