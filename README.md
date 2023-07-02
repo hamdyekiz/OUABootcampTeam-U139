@@ -98,7 +98,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 ## Sprint 2
 
 **Sprint Notları**: 
-- Takım olarak proje yönetiminde Trello kullanmaya devam ettik. 
+- Takım olarak proje yönetiminde Trello kullanmaya devam edildi. 
 - Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
 - Ayrı ayrı dosyalarda çalışmak yerine tek bir dosya üzerinden çalışmaya başlanıldı.
 
