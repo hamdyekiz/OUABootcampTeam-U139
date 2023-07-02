@@ -107,7 +107,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 485 puanlık backlog bulunmaktadır. Bu sprintte 1 haftalık Kurban Bayramı tatili olduğundan kaynaklı en azından 150 puanlık backlog yapılması gerektiği karar verildi. 
 
  **Daily Scrum**: 
-[**Sprint 2 Daily Scrum Chats**](LİNK)
+[**Sprint 2 Daily Scrum Chats**](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/sprint2_dailyscrum.pdf)
 
  **Product Backlog**: 
 [Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
