@@ -63,7 +63,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 
 **Sprint board update**: Sprint board screenshotları: 
 
-![Backlog 1](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/backlognew.PNG)
+![Backlog 1](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/1.%20Sprint/backlogsprint1.PNG)
 
 **Oyun Durumu**: Ekran görüntüleri:
 
@@ -117,15 +117,16 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 
 **Sprint board update**: Sprint board screenshotları: 
 
-![Backlog 1](LİNK)
+![Backlog 1](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/backlogsprint2.PNG)
+
 
 **Oyun Durumu**: Ekran görüntüleri:
 
-![Screenshot 1](LİNK)
-![Screenshot 2](LİNK)
-![Screenshot 3](LİNK)
-![Screenshot 4](LİNK)
-
+![Screenshot 1](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/men%C3%BC.PNG)
+![Screenshot 2](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/game1.PNG)
+![Screenshot 3](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/Ekran_goruntusu_2023-07-02_230414.png)
+![Screenshot 4](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/Ekran_goruntusu_2023-07-02_230605.png)
+![Screenshot 5](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/Ekran_goruntusu_2023-07-02_230801.png)
 
 
 
@@ -140,11 +141,10 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 **Alınan kararlar**: 
 - 3 boyutlu dünyalara eklenebilecek detaylar konuşuldu. 
 
-
   
  **Sprint Retrospective:**
-- Çalışmalar son haftada bayramdan dolayı aksadı. Çalışmaların hızlandırılması gerektiğine vurgu yapıldı. 
-
+- Çalışmalar son haftada bayramdan dolayı aksadı. Çalışmaların hızlandırılması gerektiğine vurgu yapıldı.
+- Ekip içi iletişimin arttırılması gerektiğine tekrardan vurgu yapıldı. 
 
 
 **Diğer Notlar**:
