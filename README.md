@@ -139,7 +139,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 - 175 puanlık backlog tamamlandı.
 
 **Alınan kararlar**: 
-- 3 boyutlu dünyalara eklenebilecek detaylar konuşuldu.
+- 3 boyutlu dünyaların yapımının hızlandırılması gerektiğine karar verildi
 
 
   
