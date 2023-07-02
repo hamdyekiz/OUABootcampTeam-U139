@@ -149,7 +149,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 
 
 **Diğer Notlar**:
-- Oyunun hareket mekaniği ve dünya tasarımıyla ilgili 2. sprint dosyasında birkaç tane video bulunmaktadır.
+- 2. sprint dosyasında dünya tasarımıyla ilgili daha fazla görsel ve oyunun bir tane videosu bulunmaktadır.
     
   
   
