@@ -14,7 +14,7 @@ public class UnitManager : MonoBehaviour
 
     private Unit selectedUnit;
     private Hex previouslySelectedHex;
-    public Image healthBar;
+    public Slider healthBar1;
     public float healthDecreaseRate = 1f; // Can azalma hýzý
     public float currentHealth = 100f;
 
@@ -110,7 +110,7 @@ public class UnitManager : MonoBehaviour
     private void UpdateHealthBar()
     {
         float fillAmount = currentHealth / 100f;
-        healthBar.fillAmount = fillAmount;
+        healthBar1.value = fillAmount;
 
 
     }

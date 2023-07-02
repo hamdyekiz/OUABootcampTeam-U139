@@ -8,7 +8,7 @@ public class MovementSystem : MonoBehaviour
     private BFSResult movementRange = new BFSResult();
     private List<Vector3Int> currentPath = new List<Vector3Int>();
     private HashSet<Vector3Int> previousPathPositions = new HashSet<Vector3Int>();
-    public Image healthBar;
+    public Slider healthBar1;
     public float healthDecreaseRate = 1f; // Can azalma hýzý
     public float currentHealth = 100f;
 
@@ -84,7 +84,7 @@ public class MovementSystem : MonoBehaviour
     private void UpdateHealthBar()
     {
         float fillAmount = currentHealth / 100f;
-        healthBar.fillAmount = fillAmount;
+        healthBar1.value = fillAmount;
     }
 
     public bool IsHexInRange(Vector3Int hexPosition)
