@@ -139,11 +139,12 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 - 175 puanlık backlog tamamlandı.
 
 **Alınan kararlar**: 
-- 3 boyutlu dünyalara eklenebilecek detaylar konuşuldu. 
+- 3 boyutlu dünyalara eklenebilecek detaylar konuşuldu.
+
 
   
  **Sprint Retrospective:**
-- Çalışmalar son haftada bayramdan dolayı aksadı. Çalışmaların hızlandırılması gerektiğine vurgu yapıldı.
+- Çalışmalar son haftada bayramdan dolayı aksadı. Projenin yetişmesi için çalışmaların hızlandırılması gerektiğine vurgu yapıldı.
 - Ekip içi iletişimin arttırılması gerektiğine tekrardan vurgu yapıldı. 
 
 
