@@ -13,7 +13,7 @@ public class MenuController : MonoBehaviour
     [SerializeField] private Slider volumeSlider = null;
     [SerializeField] private float defaultVolume = 1.0f;
 
-    [Header("Graphic Settings")]
+    [Header("Graphics Settings")]
     [SerializeField] private Slider brightnessSlider = null;
     [SerializeField] private TMP_Text brightnessTextValue = null;
     [SerializeField] private float defaultBrightness = 1;
@@ -102,7 +102,7 @@ public class MenuController : MonoBehaviour
         StartCoroutine(ConfirmationBox());
     }
 
-    public void SetBrightnessLevel(float brightness)
+    public void SetBrightness(float brightness)
     {
         _brightnessLevel = brightness;
         brightnessTextValue.text = brightness.ToString("0.0");
