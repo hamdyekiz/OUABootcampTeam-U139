@@ -98,7 +98,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 ## Sprint 2
 
 **Sprint Notları**: 
-- Takım olarak proje yönetiminde Trello kullanmaya devam ettik. 
+- Takım olarak proje yönetiminde Trello kullanmaya devam edildi. 
 - Daily Scrumları Whatsapp ve discord üzerinden gerçekleştirdik. Biri hafta içi diğeri hafta sonu olmak üzere haftada en az 2 defa sesli olarak discordda toplantı düzenleyip, takıldığımız yerleri konuşup fikir alışverişinde bulunduk.
 - Ayrı ayrı dosyalarda çalışmak yerine tek bir dosya üzerinden çalışmaya başlanıldı.
 
@@ -107,7 +107,7 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 485 puanlık backlog bulunmaktadır. Bu sprintte 1 haftalık Kurban Bayramı tatili olduğundan kaynaklı en azından 150 puanlık backlog yapılması gerektiği karar verildi. 
 
  **Daily Scrum**: 
-[**Sprint 2 Daily Scrum Chats**](LİNK)
+[**Sprint 2 Daily Scrum Chats**](https://github.com/hamdyekiz/OUABootcampTeam-U139/blob/main/Project%20Management/2.%20Sprint/sprint2_dailyscrum.pdf)
 
  **Product Backlog**: 
 [Product Backlog URL](https://trello.com/b/fRqmKOd4/bootcamp-u139)
@@ -139,16 +139,17 @@ Keşif tabanlı ve bulmaca oyunlarından keyif alan geniş bir oyuncu kitlesine 
 - 175 puanlık backlog tamamlandı.
 
 **Alınan kararlar**: 
-- 3 boyutlu dünyalara eklenebilecek detaylar konuşuldu. 
+- 3 boyutlu dünyaların yapımının hızlandırılması gerektiğine karar verildi
+
 
   
  **Sprint Retrospective:**
-- Çalışmalar son haftada bayramdan dolayı aksadı. Çalışmaların hızlandırılması gerektiğine vurgu yapıldı.
+- Çalışmalar son haftada bayramdan dolayı aksadı. Projenin yetişmesi için çalışmaların hızlandırılması gerektiğine vurgu yapıldı.
 - Ekip içi iletişimin arttırılması gerektiğine tekrardan vurgu yapıldı. 
 
 
 **Diğer Notlar**:
-- Oyunun hareket mekaniği ve dünya tasarımıyla ilgili 2. sprint dosyasında birkaç tane video bulunmaktadır.
+- İkinci sprint dosyasında dünya tasarımıyla ilgili daha fazla görsel ve oyunun bir tane videosu bulunmaktadır.
     
   
   
