@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,20 +8,22 @@ public class UnitManager : MonoBehaviour
 {
     [SerializeField] private HexGrid hexGrid;
     [SerializeField] private MovementSystem movementSystem;
+    [SerializeField] private GameObject confirmationPopup;
 
     public bool PlayersTurn { get; private set; } = true;
 
     private Unit selectedUnit;
     private Hex previouslySelectedHex;
     public Slider healthBar1;
-    public float healthDecreaseRate = 1f; // Can azalma hýzý
+    public float healthDecreaseRate = 1f;
     public float currentHealth = 100f;
 
-
     private bool isGameOver = false;
-
+    private bool isEndOfTurn = false;
+    private bool isPopupActive = false;
 
     public GameManagerScript gameManager;
+
     public void HandleUnitSelected(GameObject unit)
     {
         if (!PlayersTurn)
@@ -87,7 +88,7 @@ public class UnitManager : MonoBehaviour
         else
         {
             movementSystem.MoveUnit(selectedUnit, hexGrid);
-            // Hareket tamamlandýktan sonra can azaltma iþlemi
+
             currentHealth -= healthDecreaseRate;
             UpdateHealthBar();
 
@@ -95,24 +96,21 @@ public class UnitManager : MonoBehaviour
             {
                 isGameOver = true;
                 gameManager.gameOver();
-
-                //Invoke("RestartGame", 2f);
-
             }
             else
             {
                 PlayersTurn = false;
                 selectedUnit.MovementFinished += ResetTurn;
                 ClearOldSelection();
+                isEndOfTurn = true;
             }
         }
     }
+
     private void UpdateHealthBar()
     {
         float fillAmount = currentHealth / 100f;
         healthBar1.value = fillAmount;
-
-
     }
 
     private bool HandleSelectedHexIsUnitHex(Vector3Int hexPosition)
@@ -139,9 +137,41 @@ public class UnitManager : MonoBehaviour
     private void ResetTurn(Unit selectedUnit)
     {
         selectedUnit.MovementFinished -= ResetTurn;
-        PlayersTurn = true;
+        isEndOfTurn = true;
+        isPopupActive = false;
     }
 
+    private void ShowConfirmationPopup()
+    {
+        confirmationPopup.SetActive(true);
+    }
 
+    private void HandleTurnEnd()
+    {
+        confirmationPopup.SetActive(true);
+    }
 
+    public void HandleConfirmation(bool confirmed)
+    {
+        if (confirmed)
+        {
+          
+        }
+        else
+        {
+           
+            PlayersTurn = true;
+        }
+
+        confirmationPopup.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (isEndOfTurn && !isPopupActive)
+        {
+            isPopupActive = true;
+            Invoke("HandleTurnEnd", 1.3f);
+        }
+    }
 }

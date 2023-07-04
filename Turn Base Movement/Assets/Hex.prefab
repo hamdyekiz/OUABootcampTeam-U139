@@ -75,7 +75,6 @@ GameObject:
   - component: {fileID: 8982394926689724133}
   - component: {fileID: 1817797289425239810}
   - component: {fileID: 6210309589596851592}
-  - component: {fileID: 3421943080130650410}
   m_Layer: 6
   m_Name: Hex
   m_TagString: Untagged
@@ -153,16 +152,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glowMaterial: {fileID: 2100000, guid: a834ab406f88b854486738bc02eaf661, type: 2}
---- !u!114 &3421943080130650410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505877769979161934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f7b8cd9b4e378f4cb9874ada8f4b617, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: Demo_01
