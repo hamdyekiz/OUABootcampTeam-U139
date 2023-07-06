@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - enemy
+  - FxTemporaire
+  - ground
   layers:
   - Default
   - TransparentFX
