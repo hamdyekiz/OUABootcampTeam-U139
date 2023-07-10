@@ -4,7 +4,7 @@
 ### **N/A**
 
 ## Takım Üyeleri
-
+- [Ayşe Nur Erbilir: Team Member/Developer](https://github.com/AysenurErbilir)
 - [Hamdi Ekiz: Product Owner/Scrum Master/Developer](https://github.com/hamdyekiz)
 - [Makbule Tomay: Team Member/Developer](https://github.com/tomaymakbule)
 - [Sefercan Durmuş: Team Member/Developer](https://github.com/theseff)
