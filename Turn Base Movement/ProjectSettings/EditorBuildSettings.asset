@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3-_ice.unity
     guid: 323b2998502edad4fbaae16cabd9b209
+  - enabled: 1
+    path: Assets/Scenes/HEXAGONIA.unity
+    guid: 451803b101425c84182b7f219cf2da53
   m_configObjects: {}

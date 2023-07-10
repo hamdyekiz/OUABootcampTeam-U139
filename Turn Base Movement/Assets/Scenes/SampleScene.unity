@@ -7723,7 +7723,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5099153787930633796, guid: 2a591752a594d8c449745c35c6de5173, type: 3}
       propertyPath: m_Name
-      value: Astronaut
+      value: AstronautHexagon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5099153787930633796, guid: 2a591752a594d8c449745c35c6de5173, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5333032214693880756, guid: 2a591752a594d8c449745c35c6de5173, type: 3}
       propertyPath: hexGrid

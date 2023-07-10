@@ -19,18 +19,43 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController controller;
     private Transform cameraTransform;
     private Animator anim;
+    private bool canMove = true; // Enable or disable character control
+    private bool isCursorLocked = true; // Store the cursor lock state
 
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController>();
         cameraTransform = Camera.main.transform; // Assuming you have a camera tagged as "MainCamera"
-        Cursor.lockState = CursorLockMode.Locked;
+
+        // Set the initial cursor lock state based on whether character control is enabled or disabled
+        Cursor.lockState = canMove ? CursorLockMode.Locked : CursorLockMode.None;
+        isCursorLocked = canMove; // Store the initial cursor lock state
+        Cursor.visible = false; // Hide the cursor initially
     }
 
     private void Update()
     {
-        Move();
+        if (canMove) // Only move when control is enabled
+            Move();
+    }
+
+    public void SetCanMove(bool value)
+    {
+        canMove = value;
+
+        // Update the cursor lock state and visibility based on the new control state
+        if (canMove)
+        {
+            Cursor.lockState = isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
+            Cursor.visible = false; // Hide the cursor when character control is enabled
+        }
+        else
+        {
+            isCursorLocked = Cursor.lockState == CursorLockMode.Locked; // Store the current cursor lock state
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true; // Show the cursor when character control is disabled
+        }
     }
 
     private void Move()
@@ -98,5 +123,4 @@ public class PlayerMovement : MonoBehaviour
     {
         velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
     }
-
 }
