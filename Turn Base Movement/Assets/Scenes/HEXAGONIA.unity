@@ -1145,6 +1145,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f59e9c62851aaed46bb0599645bdfdc2, type: 3}
+--- !u!1 &105410077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1374232752055270, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
+  m_PrefabInstance: {fileID: 1866131341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &105410081
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105410077}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &128771732
 GameObject:
   m_ObjectHideFlags: 0
@@ -9261,6 +9287,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Puddle_01a_Default (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1363801279913228, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374232752055270, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4497577245460230, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -14660,6 +14694,14 @@ PrefabInstance:
     - target: {fileID: 1363801279913228, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
       propertyPath: m_Name
       value: EA_Puddle_01a_Default (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363801279913228, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374232752055270, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4497577245460230, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
       propertyPath: m_RootOrder
