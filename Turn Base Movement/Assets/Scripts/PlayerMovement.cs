@@ -19,24 +19,23 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController controller;
     private Transform cameraTransform;
     private Animator anim;
-    private bool canMove = true; // Enable or disable character control
-    private bool isCursorLocked = true; // Store the cursor lock state
+    private bool canMove = true; 
+    private bool isCursorLocked = true; 
 
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController>();
-        cameraTransform = Camera.main.transform; // Assuming you have a camera tagged as "MainCamera"
+        cameraTransform = Camera.main.transform; 
 
-        // Set the initial cursor lock state based on whether character control is enabled or disabled
         Cursor.lockState = canMove ? CursorLockMode.Locked : CursorLockMode.None;
-        isCursorLocked = canMove; // Store the initial cursor lock state
-        Cursor.visible = false; // Hide the cursor initially
+        isCursorLocked = canMove; 
+        Cursor.visible = false;
     }
 
     private void Update()
     {
-        if (canMove) // Only move when control is enabled
+        if (canMove) 
             Move();
     }
 
@@ -44,17 +43,17 @@ public class PlayerMovement : MonoBehaviour
     {
         canMove = value;
 
-        // Update the cursor lock state and visibility based on the new control state
+       
         if (canMove)
         {
             Cursor.lockState = isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
-            Cursor.visible = false; // Hide the cursor when character control is enabled
+            Cursor.visible = false; 
         }
         else
         {
-            isCursorLocked = Cursor.lockState == CursorLockMode.Locked; // Store the current cursor lock state
+            isCursorLocked = Cursor.lockState == CursorLockMode.Locked; 
             Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true; // Show the cursor when character control is disabled
+            Cursor.visible = true; 
         }
     }
 
